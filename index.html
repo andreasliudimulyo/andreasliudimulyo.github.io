@@ -15,6 +15,27 @@
 		background: #fff;
 		padding: 10px;
 	}
+	
+	.btn {
+		background-color: #fff;
+		border: none;
+		color: black;
+		padding: 5px 5px;
+		cursor: pointer;
+	}
+	
+	ul.butto {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.butto li {float: left;}
+	
+	@media screen and (max-width: 615px) {
+		ul.butto li {float: none;}
+	}
+	
 	</style>
 </head>
 
@@ -50,26 +71,36 @@
 	</table>
 	
 	<p> See my profile in other websites: </p>
-	<ul style="list-style-type:none;margin:0;padding:0">
-		<li style="float:left;margin-right:15px">
-			<img src="ntnu-transparent-editted-bw-editted-400x400.png" style="width:30px;height:30px;vertical-align:middle;margin-bottom"> </img>
+	<ul class="butto">
+		<li>
+		<button class="btn"> 
+			<img src="ntnu-transparent-editted-bw-editted-400x400.png" style="width:30px;height:30px;vertical-align:middle"> 
 			<a style="padding:5px" href="https://www.ntnu.edu/employees/andreas.liudi-mulyo" target="_blank">NTNU</a>
+		</button>
 		</li>
-		<li style="float:left;margin-right:15px">
-			<img src="google_scholar_1094619-editted.png" style="width:30px;height:30px;vertical-align:middle"> </img>
+		<li>
+		<button class="btn"> 
+			<img src="google_scholar_1094619-editted.png" style="width:30px;height:30px;vertical-align:middle">
 			<a style="padding:5px" href="https://scholar.google.com/citations?user=fH5UPwQAAAAJ&hl=en" target="_blank">Google scholar</a>
+		</button> 
 		</li>
-		<li style="float:left;margin-right:15px">
-			<img src="researchgate-editted_1200x630.png" style="width:30px;height:30px;vertical-align:middle"> </img>
+		<li>
+		<button class="btn"> 
+			<img src="researchgate-editted_1200x630.png" style="width:30px;height:30px;vertical-align:middle">
 			<a style="padding:5px" href="https://www.researchgate.net/profile/Andreas_Liudi_Mulyo" target="_blank">Research gate</a>
+		</button> 
 		</li>
-		<li style="float:left;margin-right:15px">
-			<img src="mendeley-icon_800x800.png" style="width:30px;height:30px;vertical-align:middle"> </img>
+		<li>
+		<button class="btn"> 
+			<img src="mendeley-icon_800x800.png" style="width:30px;height:30px;vertical-align:middle">
 			<a style="padding:5px" href="https://www.mendeley.com/profiles/andreas-liudi-mulyo/" target="_blank">Mendeley</a>
+		</button> 
 		</li>
-		<li style="float:left;margin-right:15px">
-			<img src="ID_symbol_B-W_128x128.png" style="width:30px;height:30px;vertical-align:middle"> </img>
-			<a style="padding:5px" href="https://orcid.org/0000-0002-7323-7661" target="_blank">ORCID</a> &nbsp &nbsp &nbsp
+		<li>
+		<button class="btn"> 
+			<img src="ID_symbol_B-W_128x128.png" style="width:30px;height:30px;vertical-align:middle">
+			<a style="padding:5px" href="https://orcid.org/0000-0002-7323-7661" target="_blank">ORCID</a>
+		</button>
 		</li>
 	</ul>
 <!--
