@@ -143,6 +143,11 @@
 	</li>
 	<li>
 	<button class="btn">
+		<font size="3"><a href="#latex" style="padding:5px;color:black;text-decoration:none;">LaTeX</a></font>
+	</button>
+	</li>
+	<li>
+	<button class="btn">
 		<font size="3"><a href="#contact" style="padding:5px;color:black;text-decoration:none;">Contact</a></font>
 	</button>
 	</li>
@@ -321,6 +326,118 @@
 	</ul>	
   <br>
 
+  <h2 id="latex">
+  LaTeX
+  <a href="#top"><img src="up-arrow.ico" style="width:20px;height:20px;vertical-align:middle"></img></a>
+  </h2>
+	<p>I used LaTeX during the writing of my PhD thesis. In its minimal working environment, the PDF of my Doctoral thesis can be seen in <a href="https://folk.ntnu.no/andrliu/file/PhD_v2_alm_template.pdf" target="_blank">this link</a>. For the template (LaTeX source), it can be downloaded from <a href="https://folk.ntnu.no/andrliu/file/PhD_v2_alm-template.zip" target="_blank">here</a>. This template is successfully compiled using <a href="https://www.overleaf.com" target="_blank">Overleaf</a> (per 10 August 2021), a collaborative cloud-based LaTeX editor. Well, actually I wrote my whole PhD dissertation using this online platform, it works nicely! Most of the packages are basically available there, so no need to install the additional missing packages on your personal PC. In case you want to try, I have shared this custom template publicly in <a href="https://www.overleaf.com/latex/templates/phd-v2-alm-template/ghynwwhqbmwr" target="_blank">the Overleaf Gallery</a>. The front cover can be customized to your liking. Feel free to use and modify!
+	</p>
+	
+	<p>The typesetting engine is the default one for <a href="https://www.overleaf.com" target="_blank">Overleaf</a>, which is a pdfLaTeX. I have not tried the other two engines, which are XeTeX and LuaTeX, so I am unable to comment on these. This thesis was typeset using LATEX and the <span style="font-family: monospace; font-size: 13pt;">book</span> documentclass. Main text is contained within the dimension of 115 mm (width)/197.2 mm (length), where the horizontal (top:bottom) and vertical (left:right) margin ratios are 1:1. The width of the margin notes is 12 mm. Style of this thesis is inspired by Friedrich Wiemer's thesis <a href="https://hss-opus.ub.rub.de/opus4/frontdoor/deliver/index/docId/7044/file/diss.pdf" target="_blank"><i>Security Arguments and Tool-based Design of Block Ciphers</i></a>.</p>
+	
+	<p>Sebastian Kosch's <a href="https://github.com/skosch/Crimson" target="_blank"><i>Crimson</i></a>, which is also available in <a href="https://tug.org/FontCatalogue/crimsontext/" target="_blank"> in LaTeX font catalogue</a> and <a href="https://fonts.google.com/specimen/Crimson+Text?query=crimson" target="_blank"> in Google Fonts</a>, is set as the running text (11 pt) typeface. Matthew Carter's <a href="https://tug.org/FontCatalogue/charterbt/" target="_blank"><i>Charter</i></a> acts as the title (14.4 pt), section (10 pt), subsection (10 pt), and header (8 pt) typefaces. Hermann Zapf's <a href="https://tug.org/FontCatalogue/qtpalatine/" target="_blank"><i>Palatino</i></a> serves as the page (9 pt) typeface. Christian Robertson's <a href="https://tug.org/FontCatalogue/roboto/" target="_blank"><i>Roboto</i></a> is utilized for the figure caption (8 pt) typeface. Libertine Open Fonts Project's <a href="https://tug.org/FontCatalogue/linuxlibertine/" target="_blank"><i>Linux Libertine</i></a> and Linus Romer's <a href="https://tug.org/FontCatalogue/miamanueva/" target="_blank"><i>Miama Nueva</i></a> are used for math/equation (11 pt) and calligraphical (14.4 pt) typefaces. The <a href="https://www.ctan.org/pkg/textgreek" target="_blank"><span style="font-family: monospace; font-size: 13pt;">textgreek</span></a> package provides Greek letters in normal font (being not italicized as in <span style="font-family: monospace; font-size: 13pt;">$math$</span> mode).</p>
+	
+	<p style="line-height:1.7">Six different color palettes exploited throughout this thesis are listed as follows: <span style="font-family: monospace; font-size: 13pt; background-color: rgb(0, 80, 158); color: white; padding: 2px;">RGB: 0, 80, 158</span> , <span style="font-family: monospace; font-size: 13pt; background-color: rgb(125, 0, 45); color: white; padding: 2px;">RGB: 125, 0, 45</span> , <span style="font-family: monospace; font-size: 13pt; background-color: rgb(255, 248, 220); color: black; padding: 2px;">RGB: 255, 248, 220</span> , <span style="font-family: monospace; font-size: 13pt; background-color: rgb(231, 231, 231); color: black; padding: 2px;">RGB: 231, 231, 231</span> , <span style="font-family: monospace; font-size: 13pt; background-color: rgb(0, 65, 120); color: white; padding: 2px;">RGB: 0, 65, 120</span> , and <span style="font-family: monospace; font-size: 13pt; background-color: rgb(128, 128, 128); color: white; padding: 2px;">RGB: 128, 128, 128</span> .</p>
+	
+	<p>The references were processed by <span style="font-family: monospace; font-size: 13pt;">BibTeX/natbib</span> -backref option enabled with modified <span style="font-family: monospace; font-size: 13pt;">unsrtnat</span> bibliography style. I made the reference style to be Nature-like, but with full name of the journal. This thesis/template utilized the following packages:
+	</p>
+	
+	<table cellpadding="5" width="350" style="font-family: monospace; font-size: 13pt; margin-left: auto; margin-right: auto;">
+		<tr>
+			<td>adforn</td>
+			<td>emptypage</td>
+			<td>multirow</td>
+		</tr>
+		<tr>
+			<td>amsfonts</td>
+			<td>enumitem  </td>
+			<td>natbib </td>
+		</tr>
+		<tr>
+			<td>amsmath</td>
+			<td>etoolbox</td>
+			<td>newtxmath </td>
+		</tr>
+		<tr>
+			<td>amssymb</td>
+			<td>fancyhdr</td>
+			<td>nomencl</td>
+		</tr>
+		<tr>
+			<td>babel</td>
+			<td>float</td>
+			<td>nth</td>
+		</tr>
+		<tr>
+			<td>bibentry</td>
+			<td>fontenc</td>
+			<td>pgfornament</td>
+		</tr>
+		<tr>
+			<td>bookmark</td>
+			<td>footmisc</td>
+			<td>roboto</td>
+		</tr>
+		<tr>
+			<td>booktabs</td>
+			<td>geometry </td>
+			<td>setspace</td>
+		</tr>
+		<tr>
+			<td>breakcites</td>
+			<td>graphicx</td>
+			<td>tcolorbox</td>
+		</tr>
+		<tr>
+			<td>calligra</td>
+			<td>hypernat</td>
+			<td>textgreek</td>
+		</tr>
+		<tr>
+			<td>caption</td>
+			<td>hyperref</td>
+			<td>tikz</td>
+		</tr>
+		<tr>
+			<td>changepage</td>
+			<td>ifthen</td>
+			<td>titlesec</td>
+		</tr>
+		<tr>
+			<td>chapterbib</td>
+			<td>inputenc</td>
+			<td>titletoc</td>
+		</tr>
+		<tr>
+			<td>CJKutf8</td>
+			<td>lipsum</td>
+			<td>tocbibind</td>
+		</tr>
+		<tr>
+			<td>colortbl</td>
+			<td>makeidx</td>
+			<td>url</td>
+		</tr>
+		<tr>
+			<td>crimson</td>
+			<td>marginnote</td>
+			<td>wrapfig</td>
+		</tr>
+		<tr>
+			<td>csquotes</td>
+			<td>microtype</td>
+			<td>xcolor</td>
+		</tr>
+		<tr>
+			<td>datetime</td>
+			<td>multicol</td>
+			<td>xparse</td>
+		</tr>
+	</table>
+	
+	<p>Most of the graphics in this thesis were arranged/generated using <a href="https://inkscape.org" target="_blank">Inkscape</a> (free and open-source vector graphics editor) and Ngraph (freeware programe to create scientific 2-dimensional graphs): <a href="https://forest.watch.impress.co.jp/library/software/ngraph/" target="_blank">Japanese version</a> and <a href="http://www2e.biglobe.ne.jp/isizaka/indexe.htm" target="_blank">English version</a>. For the 3D images, I had two of them in this thesis, the first one being generated using <a href="https://www.sketchup.com" target="_blank">SketchUp</a> (freemium, which is... ugh... not my taste), but then I moved on using the awesome <a href="https://www.blender.org" target="_blank">Blender</a>, a free and open-source 3D creation suite.</p>
+  <br>
+  
   <h2 id="contact">
   Contact
   <a href="#top"><img src="up-arrow.ico" style="width:20px;height:20px;vertical-align:middle"></img></a>
@@ -334,26 +451,26 @@
 			 <td> <img src="icons8-phone-32.png"> </img> </td>
 			 <td valign="middle"> +47 936 863 70 </td>
 		</tr>
-		<!-- <tr>
+		<tr>
 			<td> <img src="icons8-place-marker-30.png"> </img> </td>
 			<td valign="middle"> O. S. Bragstads plass 2a, 7034 Trondheim, Norway </td>
-		</tr> -->
+		</tr>
 	</table>
 	
 	<p> See my profile in other websites: </p>
 	<ul class="butto">
- 		<li>
+		<li>
 		<button class="btn"> 
 			<img src="ntnu-transparent-editted-bw-editted-400x400.png" style="width:30px;height:30px;vertical-align:middle"> </img>
 			<a style="padding:5px" href="http://folk.ntnu.no/andrliu/" target="_blank">NTNU</a>
 		</button>
-		</li> 
-<!--		<li>
+		</li>
+		<li>
 		<button class="btn"> 
 			<img src="GitHub-Mark_edit.png" style="width:30px;height:30px;vertical-align:middle"> </img>
 			<a style="padding:5px" href="http://andreasliudimulyo.github.io" target="_blank">GitHub</a>
 		</button>
-		</li> -->
+		</li>
 		<li>
 		<button class="btn"> 
 			<img src="google_scholar_1094619-editted.png" style="width:30px;height:30px;vertical-align:middle"> </img>
@@ -383,7 +500,7 @@
   <br>
   <br>
   
-<p style="text-align:right;"><i><font size="2">Updated 25 June 2021</font></i></p>
+<p style="text-align:right;"><i><font size="2">Updated 11 August 2021</font></i></p>
  
 </div>
 
